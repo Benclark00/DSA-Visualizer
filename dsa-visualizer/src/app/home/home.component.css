@@ -1,0 +1,43 @@
+#home{
+    background-color: #BFCAD5;
+    height: 100vh;
+    width: 100vw;
+    justify-content: center;
+}
+
+#navbar{
+    background-color: #1482E0;
+    height: 108px;
+    width: 1822px;
+    position:relative;
+    border-radius: 10px;
+    left: 13%;
+    top: 3%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.links{
+    background-color: #7BBAF1;
+    height: 56px;
+    width: 159px;
+    border-radius: 5px;
+    margin-left: 25px;
+    text-align: center;
+    font-size: 22px;
+    font-weight: 600;
+    display:flex;
+    justify-content: center;
+    justify-items: center;
+}
+.links p{
+    margin-top: 14px;
+}
+#sq p {
+    margin-top: 1px;
+}
+
+#mst p {
+    margin-top: 1px;
+}
