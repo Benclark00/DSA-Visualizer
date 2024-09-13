@@ -1,0 +1,76 @@
+#arrays{
+    background-color: #BFCAD5;
+    height: 100vh;
+    width: 100vw;
+    justify-content: center;
+}
+
+.links a{
+    height: 56px;
+    width: 159px;
+    margin-top: 14px;
+    color: black;
+    text-decoration: none;
+}
+
+#navbar{
+    background-color: #1482E0;
+    height: 108px;
+    width: 1822px;
+    position:relative;
+    border-radius: 10px;
+    left: 13%;
+    top: 3%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.links{
+    background-color: #FFC300;
+    height: 56px;
+    width: 159px;
+    border-radius: 5px;
+    margin-left: 25px;
+    text-align: center;
+    font-size: 22px;
+    font-weight: 600;
+    display:flex;
+    justify-content: center;
+    justify-items: center;
+    opacity: 0.7;
+    transition: 0.3s;
+}
+.links:hover{
+    opacity: 1;
+}
+#sq a {
+    margin-top: 1px;
+}
+
+#mst a {
+    margin-top: 1px;
+}
+
+.code{
+    background-color: black;
+    height: 590px;
+    width: 600px;
+    margin-top: 2%;
+    position: relative;
+    margin-left: 17%;
+}
+
+#sortMethods{
+    position: relative;
+    margin-top: 8%;
+    margin-left: 25%;
+    border-radius: 10px;
+    width: 160px;
+    height: 60px;
+    background-color: #FFC300;
+    text-align: center;
+    justify-content: center;
+    justify-items: center;
+    font-size: large;
+}

@@ -1,1 +1,40 @@
-<p>arrays works!</p>
+<div id="arrays">
+    <div id="navbar">
+        <div class="links" id="home">
+            <a href="">Home</a>
+        </div>
+        <div class="links" id="linked-list">
+            <a>Linked List</a>
+        </div>
+        <div class="links" id="sq">
+            <a>Stacks & Queues</a>
+        </div>
+        <div class="links" id="ht">
+            <a>HashTable</a>
+        </div>
+        <div class="links" id="trees">
+            <a>Trees</a>
+        </div>
+        <div class="links" id="graphs">
+            <a>Graphs</a>
+        </div>
+        <div class="links" id="sp">
+            <a>Shortest Path</a>
+        </div>
+        <div class="links" id="mst">
+            <a>Min. Spanning Tree</a>
+        </div>
+        <div class="links" id="mf">
+            <a>Maximum Flow</a>
+        </div>
+    </div>
+    <div class="dropdown">
+        <select class="form-control" id="sortMethods" [(ngModel)]="selectedSortMethodId" (ngModelChange)="updateObj($event)">
+            <option value="" disabled>Choose a sort method</option>
+            <option *ngFor="let c of sortMethods" [ngValue]="c.id">{{ c.sortMethod }}</option>
+        </select>
+    </div>
+    <div class="code">
+        
+    </div>
+</div>
