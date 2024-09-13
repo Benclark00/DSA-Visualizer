@@ -1,7 +1,7 @@
-<div id = "home">
+<div id="arrays">
     <div id="navbar">
-        <div class="links" id="arrays">
-            <a href="arrays">Arrays</a>
+        <div class="links" id="home">
+            <a href="">Home</a>
         </div>
         <div class="links" id="linked-list">
             <a>Linked List</a>
@@ -28,11 +28,13 @@
             <a>Maximum Flow</a>
         </div>
     </div>
-    <div class="message">
-        <p>
-            Hello programmer, and welcome to the Data Structures and Algorithms Visualization web app! This application was designed to make the difficult topic of understanding data structures and algorithms easier,
-             through detailed visualizations and explanations on each process shown. I have learned a lot through creating this project, and hope it can benefit viewers in the same way it benefited myself.
-              To view a specific type of data structure or algorithm click on one of the tabs above.
-        </p>
+    <div class="dropdown">
+        <select class="form-control" id="sortMethods" [(ngModel)]="selectedSortMethodId" (ngModelChange)="updateObj($event)">
+            <option value="" disabled>Choose a sort method</option>
+            <option *ngFor="let c of sortMethods" [ngValue]="c.id">{{ c.sortMethod }}</option>
+        </select>
+    </div>
+    <div class="code">
+        
     </div>
 </div>

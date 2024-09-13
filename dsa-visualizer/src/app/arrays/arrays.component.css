@@ -1,4 +1,4 @@
-#home{
+#arrays{
     background-color: #BFCAD5;
     height: 100vh;
     width: 100vw;
@@ -51,22 +51,26 @@
 #mst a {
     margin-top: 1px;
 }
-.message{
-    background-color: #7BBAF1;
-    width: 989px;
-    height: 484px;
-    border-radius: 10px;
+
+.code{
+    background-color: black;
+    height: 590px;
+    width: 600px;
+    margin-top: 2%;
     position: relative;
-    margin-top: 10%;
-    margin-left: 28%;
+    margin-left: 17%;
+}
+
+#sortMethods{
+    position: relative;
+    margin-top: 8%;
+    margin-left: 25%;
+    border-radius: 10px;
+    width: 160px;
+    height: 60px;
+    background-color: #FFC300;
     text-align: center;
-    display:flex;
     justify-content: center;
     justify-items: center;
-}
-.message p{
-    font-size: 36px;
-    margin-top: 6%;
-    margin-left: 4%;
-    margin-right: 4%;
+    font-size: large;
 }
