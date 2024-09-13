@@ -19,7 +19,7 @@
 }
 
 .links{
-    background-color: #7BBAF1;
+    background-color: #FFC300;
     height: 56px;
     width: 159px;
     border-radius: 5px;
@@ -30,7 +30,13 @@
     display:flex;
     justify-content: center;
     justify-items: center;
+    opacity: 0.7;
+    transition: 0.3s;
 }
+.links:hover{
+    opacity: 1;
+}
+
 .links p{
     margin-top: 14px;
 }
@@ -40,4 +46,23 @@
 
 #mst p {
     margin-top: 1px;
+}
+.message{
+    background-color: #7BBAF1;
+    width: 989px;
+    height: 484px;
+    border-radius: 10px;
+    position: relative;
+    margin-top: 10%;
+    margin-left: 28%;
+    text-align: center;
+    display:flex;
+    justify-content: center;
+    justify-items: center;
+}
+.message p{
+    font-size: 36px;
+    margin-top: 6%;
+    margin-left: 4%;
+    margin-right: 4%;
 }
